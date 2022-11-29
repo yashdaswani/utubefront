@@ -1,0 +1,79 @@
+.video_cont{
+    display: flex;
+    gap: 24px;
+}
+.video_content{
+    flex: 6;
+}
+.recommandation{
+    flex: 2;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: wheat;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video_button{
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 20px;
+    color: rgb(247, 246, 243);
+    background-color: rgb(85, 84, 82);
+    cursor: pointer;
+}
+.video_classbutton{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(3, 3, 3) !important;
+}
+.channel{
+    display: flex;
+    justify-content: space-between;
+}
+.channelinfo{
+    margin: 2px;
+    display: flex;
+    gap: 20px;
+}
+.channelnamevideo{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-top: 9px ;
+}
+.channeldetail{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+.channelcounter{
+    margin-bottom: 15px;
+    color: rgb(138, 138, 138);
+    font-size: 12px;
+}
+.subscribe{
+    background-color: #403e3e;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.9rem;
+    height: max-content;
+    margin-top: 1rem;
+    padding: 8px 15px;
+    cursor: pointer;
+}

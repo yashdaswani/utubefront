@@ -1,0 +1,44 @@
+.card_cont{
+    width:  18rem;
+    margin-bottom: "45px";
+    cursor: pointer;
+    display: block;
+    gap: 10px;
+}
+.card_img{
+    width: 100%;
+    height:14rem;
+    /* background-color: #999; */
+    flex: 1;
+    border-radius: 7%;
+}
+
+.card_details{
+    display: flex;
+  margin-top: "16px";
+  gap: 12px;
+  flex: 1;
+}
+
+.card_channelImg{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  display: block;
+}
+
+.card_title{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.card_channelname{
+    font-size: 14px;
+    color: rgb(139, 138, 138);
+    margin: 9px 0px;
+}
+.card_info{
+    font-size: 14px;
+    color: rgb(139, 138, 138);
+  }
+

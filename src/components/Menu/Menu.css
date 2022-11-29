@@ -1,0 +1,52 @@
+.menu{
+    flex: 1;
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+    font-size: 14px;
+    position: sticky;
+    top: 0;
+}
+.menu_wrapper{
+    padding: 18px 26px;
+}
+.menu_logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.menu_logo img{
+    height: 25px;
+}
+.menu_item{
+    display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  padding: 7px 0px;
+}
+hr{
+    margin: 10px 0px;
+    border: 0.5px solid white;
+}
+.menu_button{
+    padding: 4px 15px;
+  background-color: transparent;
+  border: 1px solid #3ea6ff;
+  color: #3ea6ff;
+  border-radius: 3px;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.title{
+    font-size: 14px;
+    font-weight: 500;
+    color: #aaaaaa;
+    margin-bottom: 10px;
+}
